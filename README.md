@@ -27,4 +27,3 @@ This repo was created as a hands-on way to:
 - Practice JavaScript logic and DOM manipulation
 - Build interactive UI components
 - Learn core frontend concepts
-- Create small, functional apps without frameworks
