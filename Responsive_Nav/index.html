@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive NavBar</title>
+    <link rel="stylesheet" href="styleNav.css">
+      <script src="scriptNav.js"></script>
+</head>
+<body>
+    <nav>
+        <ul class="sidebar">
+                <li onclick="hideSidebar()"> <a href="#" id="tohide"><img src="./Images/close.png" alt=""></a> </li>
+            <li> <a href="#">Blog</a> </li>
+            <li> <a href="#">Products</a> </li>
+            <li> <a href="#">About</a> </li>
+            <li> <a href="#">Forum</a> </li>
+            <li> <a href="#">Login</a> </li>
+        </ul> 
+
+         <ul>
+            <li> <a href="#">Roshan</a> </li>
+            <li class="hideOnMobile"> <a href="#">Blog</a> </li>
+            <li class="hideOnMobile"> <a href="#">Products</a> </li>
+            <li class="hideOnMobile"> <a href="#">About</a> </li>
+            <li class="hideOnMobile"> <a href="#">Forum</a> </li>
+            <li class="hideOnMobile"> <a href="#">Login</a> </li>
+            <li onclick="showSidebar()" id="toshow"> <a href="#" id="toshow"><img src="./Images/menu.png" ></a></li>
+        </ul> 
+    </nav>
+
+  
+</body>
+</html>
